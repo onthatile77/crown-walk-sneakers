@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# CrownWalk
 
-## Project info
+A shoe store web application, built end-to-end as an experiment in **AI-assisted development**: I drove the design, product decisions and custom functionality, and used AI coding tools to implement and iterate on them.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> **Live demo:** [add link here]
 
-## How can I edit this code?
+## About the project
 
-There are several ways of editing your application.
+CrownWalk is an online storefront for shoes. The goal was twofold:
 
-**Use Lovable**
+1. Ship a complete, usable e-commerce experience rather than a tutorial-sized demo.
+2. Learn where AI coding tools are strong, where they need steering, and how to review and rework their output with real judgement.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Product catalogue / browsing]
+- [Product detail pages]
+- [Cart / checkout flow]
+- [Any custom functionality you added by hand or by directing the AI, e.g. filtering, search, wishlist]
 
-**Use your preferred IDE**
+## Tech stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Area | Tools |
+| --- | --- |
+| Frontend | [e.g. HTML, CSS, JavaScript] |
+| Backend | [e.g. none / .NET / Node] |
+| AI tooling | [e.g. Claude, GitHub Copilot, ChatGPT] |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Getting started
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/onthatile77/cw.git
+cd cw
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# [Add the command(s) needed to run it, e.g. open index.html, npm install && npm run dev, or dotnet run]
 ```
 
-**Edit a file directly in GitHub**
+## How it was built
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+I treated AI as a fast pair programmer rather than an autopilot:
 
-**Use GitHub Codespaces**
+- I defined the design direction, page structure and the custom behaviour I wanted.
+- AI tools generated and iterated on code against those requirements.
+- I reviewed the output, rewrote the parts that were wrong or over-complicated, and made the final call on what shipped.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## What I learned
 
-## What technologies are used for this project?
+- Writing clear, specific requirements gets far better AI output than vague prompts.
+- AI-generated code still needs review: knowing when to trust it and when to intervene is the real skill.
+- [Add one or two lessons of your own]
 
-This project is built with:
+## Screenshots
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+[Add 1-2 screenshots here, e.g. `![Home page](docs/home.png)`]
 
-## How can I deploy this project?
+## Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Moila Leatile Onthatile**
+GitHub: [@onthatile77](https://github.com/onthatile77) | Email: onthatile.0318@gmail.com
