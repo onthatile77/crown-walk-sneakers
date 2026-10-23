@@ -2,7 +2,6 @@
 
 A shoe store web application, built end-to-end as an experiment in **AI-assisted development**: I drove the design, product decisions and custom functionality, and used AI coding tools to implement and iterate on them.
 
-> **Live demo:** [add link here]
 
 ## About the project
 
@@ -16,15 +15,7 @@ CrownWalk is an online storefront for shoes. The goal was twofold:
 - [Product catalogue / browsing]
 - [Product detail pages]
 - [Cart / checkout flow]
-- [Any custom functionality you added by hand or by directing the AI, e.g. filtering, search, wishlist]
 
-## Tech stack
-
-| Area | Tools |
-| --- | --- |
-| Frontend | [e.g. HTML, CSS, JavaScript] |
-| Backend | [e.g. none / .NET / Node] |
-| AI tooling | [e.g. Claude, GitHub Copilot, ChatGPT] |
 
 ## Getting started
 
@@ -33,8 +24,8 @@ CrownWalk is an online storefront for shoes. The goal was twofold:
 git clone https://github.com/onthatile77/cw.git
 cd cw
 
-# [Add the command(s) needed to run it, e.g. open index.html, npm install && npm run dev, or dotnet run]
-```
+npm install
+npm run dev
 
 ## How it was built
 
@@ -52,7 +43,6 @@ I treated AI as a fast pair programmer rather than an autopilot:
 
 ## Screenshots
 
-[Add 1-2 screenshots here, e.g. `![Home page](docs/home.png)`]
 
 ## Author
 
